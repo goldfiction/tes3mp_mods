@@ -16,6 +16,6 @@
 [Script]: - 5: "GR_BalmoraMagesGuildSellAllSummoningSpells.ESP": [2F3BDE9F]
 [Script]: - 6: "GR_belt_of_flight.ESP": [A8F5BAFB]
 [Script]: - 7: "GR_enchanting.ESP": [D7193213]
-[Script]: - 8: "kanabankurn.ESP": [CB6B466A]
-[Script]: - 9: "Rapport 2.0.ESP": [C6D3D0E6]
+[Script]: - 8: "Rapport 2.0.ESP": [C6D3D0E6]
+[Script]: - 9: "EBJ_spell_organizer.ESP": [6A49E525]
 ```
