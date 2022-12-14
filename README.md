@@ -18,5 +18,4 @@
 [Script]: - 7: "GR_enchanting.ESP": [D7193213]
 [Script]: - 8: "kanabankurn.ESP": [CB6B466A]
 [Script]: - 9: "Rapport 2.0.ESP": [C6D3D0E6]
-[Script]: - 10: "Grass Vanilla 2.ESP": [D737154B]
 ```
