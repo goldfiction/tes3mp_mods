@@ -3,7 +3,10 @@
 * This is repo for Goldfiction server
 * the server uses 0.8.0 TES3MP version
 * Added grass cover for all regions
-* Removed Grass Vanilla2.esp from mod list
+* Removed Grass Vanilla2.esp from required mod list
+* you need to copy all the files to /morrowind/data files/
+* you also need to put ground cover files to /morrowind/data files/, not in ground cover subfolder
+* you will also need to drag and drop mod sequence to match with server
 * Now to have grass cover functionality in both pc and android version clients:
 ---
 * Add this to your openmw.cfg:
