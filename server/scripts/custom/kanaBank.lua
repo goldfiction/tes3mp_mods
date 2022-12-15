@@ -33,8 +33,7 @@ scriptConfig.storageCell = "Clutter Warehouse - Everything Must Go!" -- The cell
 scriptConfig.logging = true
 scriptConfig.debug = false
 
---scriptConfig.recordRefId = "kanabankcontainer" -- Used internally for this script's base permanent record id. There should be no reason you'd need to change it
-scriptConfig.recordRefId = "urn_100" -- Used internally for this script's base permanent record id. There should be no reason you'd need to change it
+scriptConfig.recordRefId = "kanabankcontainer" -- Used internally for this script's base permanent record id. There should be no reason you'd need to change it
 
 local lang = {
 	["openOtherPlayerBankFailNoRank"] = "You don't have the required staff rank to open other player's banks.",
