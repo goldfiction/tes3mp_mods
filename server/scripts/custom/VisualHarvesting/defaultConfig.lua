@@ -1,7 +1,7 @@
 local defaultConfig = {
     alchemyDeterminesChance = true,
     menuId = 866001,
-    respawnTime = 720,
+    respawnTime = 3,
     fail = {
         message = "You failed to gather anything!",
         sound = "fx/item/potionFAIL.wav"

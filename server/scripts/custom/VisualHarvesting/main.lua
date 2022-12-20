@@ -2,7 +2,7 @@ local VisualHarvesting = {}
 
 VisualHarvesting.scriptName = "VisualHarvesting"
 
-VisualHarvesting.multiplier = 4
+VisualHarvesting.multiplier = 12
 
 VisualHarvesting.defaultConfig = require("custom.VisualHarvesting.defaultConfig")
 
