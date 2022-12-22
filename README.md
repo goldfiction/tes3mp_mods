@@ -19,4 +19,5 @@
 [Script]: - 8: "GR_NotEnoughIngredients.ESP": [CAF9D40E]
 [Script]: - 9: "Rapport 2.0.ESP": [C6D3D0E6]
 [Script]: - 10: "EBJ_spell_organizer.ESP": [6A49E525]
+[Script]: - 11: "master_index.ESP": [7174AD64]
 ```
