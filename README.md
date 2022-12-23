@@ -20,4 +20,8 @@
 [Script]: - 9: "Rapport 2.0.ESP": [C6D3D0E6]
 [Script]: - 10: "EBJ_spell_organizer.ESP": [6A49E525]
 [Script]: - 11: "master_index.ESP": [7174AD64]
+[Script]: - 12: "Tamriel_Data.esm": [C97D1C25]
+[Script]: - 13: "TR_Mainland.esm": [66218BCD]
+[Script]: - 14: "Sky_Main.esm": [963021BF]
+[Script]: - 15: "Cyr_Main.esm": [4B746790]
 ```
