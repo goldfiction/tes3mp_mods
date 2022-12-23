@@ -1,0 +1,36 @@
+---- working version ----
+for Vanilla
+https://www.nexusmods.com/morrowind/mods/46377?tab=files&file_id=1000013460
+for TR
+https://www.nexusmods.com/morrowind/mods/50670?tab=files&file_id=1000028933
+
+groundcover=Grass AC.esp
+groundcover=Grass AI.esp
+groundcover=Grass AL.esp
+groundcover=Grass BC.esp
+groundcover=Grass GL.esp
+groundcover=Grass WG.esp
+
+groundcover=Grass TR AC.esp
+groundcover=Grass TR AI.esp
+groundcover=Grass TR AL.esp
+groundcover=Grass TR AT.esp
+groundcover=Grass TR BC.esp
+groundcover=Grass TR GL.esp
+groundcover=Grass TR SV.esp
+groundcover=Grass TR WG.esp
+
+groundcover=Grass TRp AC.esp
+groundcover=Grass TRp AI.esp
+groundcover=Grass TRp AL.esp
+groundcover=Grass TRp AT.esp
+groundcover=Grass TRp BC.esp
+groundcover=Grass TRp GL.esp
+groundcover=Grass TRp SV.esp
+groundcover=Grass TRp WG.esp
+
+---- reworked version ----
+Reworked
+https://www.nexusmods.com/morrowind/mods/49144?tab=files&file_id=1000023812
+Merged Plugins
+https://www.nexusmods.com/morrowind/mods/49144?tab=files&file_id=1000023813
