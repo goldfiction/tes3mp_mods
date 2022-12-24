@@ -11,6 +11,7 @@ groundcover=Grass BC.esp
 groundcover=Grass GL.esp
 groundcover=Grass WG.esp
 
+---- these grass cover are for TR, but I found them not working, the grass were hovering in the sky, so I only use the vanilla ones ----
 groundcover=Grass TR AC.esp
 groundcover=Grass TR AI.esp
 groundcover=Grass TR AL.esp
