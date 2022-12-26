@@ -1,5 +1,9 @@
 ##README
 ***
+* I have uploaded a snapshot of my current data files
+* [https://drive.google.com/drive/folders/1FbQM2WpsMNFxQnso9_OovoR8CTRVC00Z?usp=sharing]
+* You will need to use 7zip to uncompress the data files [https://www.7-zip.org/]
+***
 * This is repo for Goldfiction server
 * the server uses 0.8.0 TES3MP version
 * android_client contains an android client
@@ -25,5 +29,7 @@
 [Script]: - 14: "TR_Mainland.esm": [66218BCD, ]
 [Script]: - 15: "Sky_Main.esm": [963021BF, ]
 [Script]: - 16: "Cyr_Main.esm": [4B746790, ]
+[Script]: - 17: "Daggerfall Collection Ver 1.0.esp": [CDC1CA93, ]
+[Script]: - 18: "Battlespire Books.esp": [43331613, ]
 ```
 * You are welcome to join our steam chat [https://s.team/chat/D4kgZQP9]
