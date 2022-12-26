@@ -48,3 +48,8 @@ stomp intensity = 2
 ** these ground covers are not to be added to mod order queue
 ** these ground covers in pc are attached using the above config changes. In android client, where you choose mod order, look to the top to find ground cover tab to the right most. Voila, select Vanilla Grass 2.esp is sufficient. We don't  know what Vanilla Grass 1 do. But Vanilla 2 includes all 6 vanilla regions. We found the TR versions to be broken, so skip the TR, TRp s.
 ** they, after loaded as ground cover content, will only affect your local game experience, including but not limited to floural trampling. So your friends 5m away can't really see your flower trampling results.
+* EBJ_spell_organizer is a small mod that renamed all the vanilla spells to follow a simple naming convention. So it's easy to find spells or use filter to find spells based on their school of magic.
+* we removed stc_bloodmoon and stc_tribunal from mod queue because they are not that useful. They added around 5 ingredients to 2 vendors. Claiming they added all the missing ingredents that were not acquireable through normal game play. If you find them useful, let me know.
+
+
+

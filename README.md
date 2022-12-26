@@ -26,4 +26,4 @@
 [Script]: - 15: "Sky_Main.esm": [963021BF, ]
 [Script]: - 16: "Cyr_Main.esm": [4B746790, ]
 ```
-* You are welcome to join our (steam chat)[https://s.team/chat/D4kgZQP9]
+* You are welcome to join our steam chat [https://s.team/chat/D4kgZQP9]
