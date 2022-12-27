@@ -1,0 +1,22 @@
+Arena of the Immortals DEMO for TES3MP
+by Melchior Dahrk
+
+Description:
+This mod is designed for cooperative play in tes3mp. Fight swarms of creatures, hordes of daedra, armies of undead, and mobs of reavers. Customize the challenge by setting your preferred difficulty level or include champions for each type of enemy. Or take on the ultimate challenge and face them all simultaneously. Get rewarding loot from your fallen foes; including hundreds of new enchanted items and Arena Tokens. These tokens can be spent at a rotating position Loot Box in the arena which will grant players a random ability to improve their survivability (remember that your abilities reset when you leave the arena!). If someone dies, they're transported to a lobby area above the arena where they can use magical orbs to rain elemental blasts upon the baddies below.
+
+Disclaimer:
+This mod is primarily designed for small groups of people. I can't claim that it is immune to abuse and is primarily intended for some rewarding fun. It's also a relatively hacky implementation that doesn't utilize tes3mp Lua and also doesn't seem to work in the vanilla engine despite just being composed of a plugin.
+
+Getting Started:
+The door to get into the arena is on top of Caius Cosades' house. Activate the console in the arena to get started, activate it again when you have had enough. If you die, you can activate the orb in the center above the arena to stop the combat.
+
+Installation:
+You must enable synced journal entries for this mod to work.
+
+Trivia:
+In the early development stages of TES1:Arena, the game was going to be a fighting game where the player travelled to various arenas. The Immortals were an arena team in Tear, Morrowind where it is said strange things happen when night falls... One of their rivals are the Reavers from Ebonheart aka the Black City; they have a reputation for being extremely ruthless...
+
+Credits:
+This mod includes the new items from "Diablo 2 Inspired Magic and Unique Items" by Pseunomix
+The tes3mp team for all their work on this fun fork of OpenMW
+David C and urm on the tes3mp Discord for scripting help
