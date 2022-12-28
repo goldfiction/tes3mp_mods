@@ -31,5 +31,11 @@
 [Script]: - 16: "Cyr_Main.esm": [4B746790, ]
 [Script]: - 17: "Daggerfall Collection Ver 1.0.esp": [CDC1CA93, ]
 [Script]: - 18: "Battlespire Books.esp": [43331613, ]
+[Script]: - 19: "TES3MP_Combat_Music.esp": [69D6DCC, ]
+[Script]: - 20: "Animated_Morrowind - merged.esp": [E0BFE05D, ]
+[Script]: - 21: "abotBoats.ESP": [93E2867E, ]
+[Script]: - 22: "abotBoatsTR2101.ESP": [E12EFFEF, ]
+[Script]: - 23: "abotRiverStridersTR2101.ESP": [5BCB4FF, ]
+[Script]: - 24: "Arena of the Immortals.ESP": [E3DBE58E, ]
 ```
 * You are welcome to join our steam chat [https://s.team/chat/D4kgZQP9]
