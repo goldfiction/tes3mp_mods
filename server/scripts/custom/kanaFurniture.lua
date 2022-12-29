@@ -819,6 +819,9 @@ end
 showInventoryOptionsGUI = function(pid, loc)
 	local message = ""
 	local choice = playerInventoryOptions[getName(pid)][loc]
+        if not(choice~=nil) then
+          return true
+        end
 	local fdata = getFurnitureData(choice.refId)
 	
 	message = message .. "Item Name: " .. choice.name .. ". Price: " .. fdata.price .. " (Sell price: " .. getSellValue(fdata.price) .. ")"

@@ -347,5 +347,31 @@ Methods.SearchWarps = function (warps, warpName)
 	return false
 end
 
+Methods.doCmd = function (pid,cmd)
+	if cmd[1] == "warp" and cmd[2] ~=nil then
+		serverWarp.OnWarpCommand(pid, tableHelper.concatenateFromIndex(cmd, 2))
+	elseif (cmd[1] == "setwarp" or cmd[1] == "setpublicwarp") and cmd[2] ~= nil then
+		serverWarp.OnSetWarpCommand(pid, tableHelper.concatenateFromIndex(cmd, 2), (cmd[1] == "setpublicwarp"))
+	elseif (cmd[1] == "removewarp" or cmd[1] == "removepublicwarp") and cmd[2] ~= nil then
+		serverWarp.OnRemoveWarpCommand(pid, tableHelper.concatenateFromIndex(cmd, 2), (cmd[1] == "removepublicwarp"))
+	elseif cmd[1] == "warplist" then
+		serverWarp.OnWarpListCommand(pid)
+	elseif cmd[1] == "forcewarp" and cmd[2] ~= nil and cmd[3] ~= nil then
+		serverWarp.OnForcePlayerCommand(pid, cmd[2], tableHelper.concatenateFromIndex(cmd, 3))
+	elseif cmd[1] == "jailwarp" and cmd[2] ~= nil and cmd[3] ~= nil then
+		serverWarp.OnJailPlayerCommand(pid, cmd[2], tableHelper.concatenateFromIndex(cmd, 3))
+	elseif cmd[1] == "allowwarp" and cmd[2] ~= nil and cmd[3] ~= nil then
+		serverWarp.OnSetCanWarpCommand(pid, cmd[2], cmd[3])
+        end
+end
+
+customCommandHooks.registerCommand("warp", Methods.doCmd)
+customCommandHooks.registerCommand("setwarp", Methods.doCmd)
+customCommandHooks.registerCommand("removewarp", Methods.doCmd)
+customCommandHooks.registerCommand("warplist", Methods.doCmd)
+customCommandHooks.registerCommand("forcewarp", Methods.doCmd)
+customCommandHooks.registerCommand("jailwarp", Methods.doCmd)
+customCommandHooks.registerCommand("allowwarp", Methods.doCmd)
 
 return Methods
+
