@@ -351,7 +351,7 @@ objectSpawnSystem.CheckForCellObjectSpawns = function(pid)
 					scale = _uIndexData.scale
 				end
 				
-				local newUniqueIndex = logicHandler.CreateObjectAtLocation(cellId,oLocation,oRefId,"place")
+				local newUniqueIndex = logicHandler.CreateObjectAtLocation(cellId,oLocation, {refId = oRefId, count = 1, charge = -1, enchantmentCharge = -1, soul=""},"place")
 				
 				replacementList[newUniqueIndex] = objectSpawnDB.spawnedObjectLocations[cellId][uniqueIndex]
 				

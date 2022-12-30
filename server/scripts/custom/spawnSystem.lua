@@ -457,7 +457,7 @@ CreatureSpawnSystem.distanceTooFarCreature = function(uniqueIndex)--, targetRefI
 		
 		local targetRefId = cRef[math.random(#keys)]--cRef[keys[math.random(#keys)]]
 		
-		local newIndex = logicHandler.CreateObjectAtLocation(cellId, location, targetRefId, "spawn")
+		local newIndex = logicHandler.CreateObjectAtLocation(cellId, location, {refId = targetRefId, count = 1, charge = -1, enchantmentCharge = -1, soul=""}, "spawn")
 		
 		
 		if newIndex == nil then return end -- added due to a nil check crash
@@ -619,7 +619,7 @@ function checkCreatureSpawns()
 					
 					local targetRefId = cRef[math.random(#keys)]
 					
-					local newIndex = logicHandler.CreateObjectAtLocation(cellId, location, targetRefId, "spawn")
+					local newIndex = logicHandler.CreateObjectAtLocation(cellId, location, {refId = targetRefId, count = 1, charge = -1, enchantmentCharge = -1, soul=""}, "spawn")
 					
 					mobDecayDB.spawnedMobs[newIndex] = {}
 					mobDecayDB.spawnedMobs[newIndex].cell = cellId
@@ -1411,7 +1411,7 @@ CreatureSpawnSystem.SaveSpawnFunction = function(pid)
 	
 	local targetRefId = cRef[math.random(#keys)]
 	
-	local newIndex = logicHandler.CreateObjectAtLocation(cellId, location, targetRefId, "spawn")
+	local newIndex = logicHandler.CreateObjectAtLocation(cellId, location,  {refId = targetRefId, count = 1, charge = -1, enchantmentCharge = -1, soul=""}, "spawn")
 	
 	mobDecayDB.spawnedMobs[newIndex] = {}
 	mobDecayDB.spawnedMobs[newIndex].cell = cellId

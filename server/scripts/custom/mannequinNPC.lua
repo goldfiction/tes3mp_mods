@@ -493,7 +493,7 @@ mannequinNPC.spawnPlacedMannequin = function(pid, refId)
 	local cellId = tes3mp.GetCell(pid)
 	local location = {posX = tes3mp.GetPosX(pid), posY = tes3mp.GetPosY(pid), posZ = tes3mp.GetPosZ(pid), rotX = tes3mp.GetRotX(pid), rotY = 0, rotZ = tes3mp.GetRotZ(pid)}
 	local targetRefId = config.mannequinItemToNPC[refId]
-	local targetUniqueIndex = logicHandler.CreateObjectAtLocation(cellId, location, targetRefId, "spawn")
+	local targetUniqueIndex = logicHandler.CreateObjectAtLocation(cellId, location,  {refId = targetRefId, count = 1, charge = -1, enchantmentCharge = -1, soul=""}, "spawn")
 	
 	if cellId ~= nil and targetUniqueIndex ~= nil then
 		if LoadedCells[cellId] ~= nil then

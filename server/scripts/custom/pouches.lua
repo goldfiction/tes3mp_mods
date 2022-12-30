@@ -629,4 +629,14 @@ customEventHooks.registerHandler("OnPlayerAuthentified", function(eventStatus, p
 	loginFunction(pid)
 end)
 
+local givePouches = function(pid,cmd)
+    pouchItemAdd(pid, "pouch_ingredients", 1)
+    pouchItemAdd(pid, "pouch_keys", 1)
+    pouchItemAdd(pid, "pouch_potions", 1)
+    pouchItemAdd(pid, "pouch_scrolls", 1)
+    pouchItemAdd(pid, "pouch_books", 1)
+end
+
+customCommandHooks.registerCommand("pouches", givePouches)
+
 return pouches

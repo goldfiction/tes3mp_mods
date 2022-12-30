@@ -224,12 +224,12 @@ customEventHooks.registerHandler("OnPlayerCellChange", function(eventStatus, pid
 		if not ajiraBook1Here then
 			local location = {posX = 290.35510253906,posZ = -250.99984741211,posY = -185.60943603516,rotX = 0,rotY = 0,rotZ = 0.28906273841858}
 			local itemRefId = "bk_ajira1_static"
-			logicHandler.CreateObjectAtLocation(currentCellDescription,location,itemRefId,"place")
+			logicHandler.CreateObjectAtLocation(currentCellDescription,location,{refId = itemRefId, count = 1, charge = -1, enchantmentCharge = -1, soul=""},"place")
 		end
 		if not ajiraBook2Here then
 			local location = {posX = -309.93283081055,posZ = -762.99957275391,posY = -1492.6372070313,rotX = 0,rotY = 0,rotZ = -0.50777697563171}
 			local itemRefId = "bk_ajira2_static"
-			logicHandler.CreateObjectAtLocation(currentCellDescription,location,itemRefId,"place")
+			logicHandler.CreateObjectAtLocation(currentCellDescription,location, {refId = itemRefId, count = 1, charge = -1, enchantmentCharge = -1, soul=""},"place")
 		end
 		
 		if hasJournalIndex(pid, "mg_stolenreport", 100) then
@@ -252,7 +252,7 @@ Methods.questMobSpawn = function(pid, creatOrNpc, refIdVariable, respawnTime, de
 	
 	if WorldInstance.data.customVariables.respawning[creatOrNpc][refIdVariable] == nil or os.time() >= WorldInstance.data.customVariables.respawning[creatOrNpc][refIdVariable] then 
 		
-		logicHandler.CreateObjectAtLocation(destination, location, targetRefId, spawnOrPlace)
+		logicHandler.CreateObjectAtLocation(destination, location,  {refId = targetRefId, count = 1, charge = -1, enchantmentCharge = -1, soul=""}, spawnOrPlace)
 		
 		local setRespawnTime = os.time() + respawnTime
 		WorldInstance.data.customVariables.respawning[creatOrNpc][refIdVariable] = setRespawnTime
