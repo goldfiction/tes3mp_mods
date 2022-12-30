@@ -235,6 +235,9 @@ local isPermanentRecord = function(recordId)
 
     if recordId ~= nil and config.recordStoreLoadOrder ~= nil then
         for _, storeType in pairs(config.recordStoreLoadOrder) do
+            if RecordStores[storeType] == nil then
+                return false
+            end
             if RecordStores[storeType].data.permanentRecords[recordId] ~= nil then
                 return true
             end
@@ -606,7 +609,7 @@ local loginFunction = function(pid)
 					if name ~= nil and dbName ~= nil then
 					
 						local targetDB = jsonInterface.load("custom/"..dbName..".json")
-						if targetDB.player[name] == nil then
+						--if targetDB.player[name] == nil then
 							local pouchRefId = string.lower(pouchRef)
 							if not inventoryHelper.containsItem(Players[pid].data.inventory, pouchRefId) then
 								
@@ -614,7 +617,7 @@ local loginFunction = function(pid)
 								pouchItemAdd(pid, pouchRefId, 1)
 							end
 							pouches.isPlayerInDB(pid, dbName)
-						end
+						--end
 					
 					end
 				end
