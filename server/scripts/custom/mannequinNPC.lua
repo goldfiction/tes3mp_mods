@@ -1004,14 +1004,16 @@ mannequinNPC.remove = function(pid, refId, count, soul, charge, enchantmentCharg
 end
 
 function mannequinNPC.OnObjectPlaceValidator(eventStatus, pid, cellDescription, objects)
-	
+	local i1=0
 	for i, object in pairs(objects) do
 		local refId = object.refId
 		
-		local itemSoul = tes3mp.GetObjectSoul(i-1)
-		local count = tes3mp.GetObjectCount(i-1)
-		local itemCharge = tes3mp.GetObjectCharge(i-1)
-        local itemEnchantmentCharge = tes3mp.GetObjectEnchantmentCharge(i-1)
+		i1=i1+1
+
+		local itemSoul = tes3mp.GetObjectSoul(i1-1)
+		local count = tes3mp.GetObjectCount(i1-1)
+		local itemCharge = tes3mp.GetObjectCharge(i1-1)
+                local itemEnchantmentCharge = tes3mp.GetObjectEnchantmentCharge(i1-1)
 		
 		if tableHelper.containsValue(config.droppableItemsInHome, refId) then
 		
