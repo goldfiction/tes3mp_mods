@@ -26,6 +26,8 @@ local Methods = {}
 Command list:
 /warplist
 	Prints a list of all public warps and your own private warps into chat
+/warpfind
+    find warps
 /warp [ warp name ]
 	Requires permission: useWarpRank
 	Warp yourself to a warp with the provided name. It first checks your personal warp list and if it can't find a warp by that name it then checks the public warp list. You can't use this command if your warp privilege has been disabled.
@@ -198,6 +200,34 @@ Methods.OnWarpListCommand = function(pid)
 	tes3mp.SendMessage(pid, message, false)
 end
 
+Methods.OnWarpFindCommand = function (pid,cmd)
+	local pubWarps = Methods.GetPublicWarps()
+	local privWarps = Methods.GetPrivateWarps(pid)
+	
+	if cmd[2] ~=nil then
+
+	local warpName = string.lower(cmd[2])
+
+	--Public warps list
+	local message = "Public Warps:\n"
+	for k, v in pairs(pubWarps) do
+		if string.find(k, warpName) then
+		    message = message .. "> " .. k .. "\n"
+		end
+	end
+	--Private warps list
+	message = message .. "Your Warps:\n"
+	for k, v in pairs(privWarps) do
+		if string.find(k, warpName) then
+    		message = message .. "> " .. k .. "\n"
+	    end
+	end
+	
+	tes3mp.SendMessage(pid, message, false)
+	end
+end
+
+
 Methods.OnForcePlayerCommand = function (pid, targetId, warpName, cantWarp)
 	local rank = Players[pid].data.settings.staffRank
 	
@@ -229,7 +259,7 @@ Methods.OnForcePlayerCommand = function (pid, targetId, warpName, cantWarp)
 end
 
 --Basically uses existing commands to teleport a player to a specific warp and disable their ability to warp.
-Methods.OnJailPlayerCommand = function(pid, targetId, warpName)
+Methods.OnJailPlayerCommand = function (pid, targetId, warpName)
 	local rank = Players[pid].data.settings.staffRank
 	
 	if rank < config.forceJailPlayerRank then
@@ -362,7 +392,9 @@ Methods.doCmd = function (pid,cmd)
 		serverWarp.OnJailPlayerCommand(pid, cmd[2], tableHelper.concatenateFromIndex(cmd, 3))
 	elseif cmd[1] == "allowwarp" and cmd[2] ~= nil and cmd[3] ~= nil then
 		serverWarp.OnSetCanWarpCommand(pid, cmd[2], cmd[3])
-        end
+	elseif cmd[1] == "warpfind" and cmd[2] ~= nil then
+		Methods.OnWarpFindCommand(pid,cmd)
+    end
 end
 
 customCommandHooks.registerCommand("warp", Methods.doCmd)
@@ -372,6 +404,9 @@ customCommandHooks.registerCommand("warplist", Methods.doCmd)
 customCommandHooks.registerCommand("forcewarp", Methods.doCmd)
 customCommandHooks.registerCommand("jailwarp", Methods.doCmd)
 customCommandHooks.registerCommand("allowwarp", Methods.doCmd)
+customCommandHooks.registerCommand("warpfind", Methods.doCmd)
 
 return Methods
+
+
 
