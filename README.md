@@ -17,7 +17,6 @@ content=Morrowind.esm
 content=Tribunal.esm
 content=Bloodmoon.esm
 content=GR_AmuletOfIntelligence.ESP
-content=GR_BalmoraMagesGuildSellAllSummoningSpells.ESP
 content=GR_belt_of_flight.ESP
 content=GR_enchanting.ESP
 content=GR_NotEnoughIngredients.ESP
@@ -67,5 +66,6 @@ content=Enchanting Scrolls.ESP
 content=Morrowind Patch Project v1.6.6 [For Rebirth].esm
 content=EBJ_spell_organizer.esp
 content=gr_Keys.esp
+content=GR_BalmoraMagesGuildSellAllSummoningSpells.ESP
 ```
 * You are welcome to join our steam chat [https://s.team/chat/D4kgZQP9]
