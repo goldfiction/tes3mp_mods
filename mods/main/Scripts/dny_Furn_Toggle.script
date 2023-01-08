@@ -1,0 +1,38 @@
+begin dny_Furn_Toggle
+
+	short	OnPcEquip
+	short IsMenuShown
+
+	if (OnPcEquip)
+
+		set OnPcEquip to 0
+		if (MenuMode == 1)
+			menuTest
+		endIf
+
+		if (dny_Furn_IsPlacementEnabled)
+			messageBox "Furniture placement is enabled" "Disable" "Back"
+		else
+			messageBox "Furniture placement is disabled" "Enable" "Back"
+		endIf
+		set IsMenuShown to 1
+
+	elseIf (IsMenuShown)
+
+		short ButtonIndex
+		set ButtonIndex to getButtonPressed
+		if (ButtonIndex == -1)
+			return
+		endIf
+		set IsMenuShown to 0
+		if (ButtonIndex == 0)
+			if (dny_Furn_IsPlacementEnabled)
+				set dny_Furn_IsPlacementEnabled to 0
+			else
+				set dny_Furn_IsPlacementEnabled to 1
+			endIf
+		endIf
+
+	endIf
+
+end dny_Furn_Toggle

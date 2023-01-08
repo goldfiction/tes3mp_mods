@@ -1,0 +1,29 @@
+begin dny_Furn_Sack1Item
+
+	short	OnPcDrop
+
+	if (OnPcDrop)
+
+		set OnPcDrop to 0
+
+		float PositionX
+		float PositionY
+		float PositionZ
+		float RotationZ
+
+		set PositionX to getPos X
+		set PositionY to getPos Y
+		set PositionZ to getPos Z
+		set RotationZ to getAngle Z
+
+		set PositionZ to PositionZ - 175
+
+		placeItem "com_sack_01" PositionX PositionY PositionZ RotationZ
+		
+		setDelete 1
+		return
+		
+
+	endIf
+
+end dny_Furn_Sack1Item

@@ -1,0 +1,36 @@
+begin dny_Furn_Sack2Object
+
+	short	OnActivate
+	short IsMenuShown
+
+	if (OnActivate)
+
+		set OnActivate to 0
+
+		if (dny_Furn_IsPlacementEnabled == 0)
+			activate
+			return
+		endIf
+		messageBox "Cloth Sack" "Open" "Take" "Back"
+		set IsMenuShown to 1
+
+	elseIf (IsMenuShown)
+
+		short ButtonIndex
+		set ButtonIndex to getButtonPressed
+		if (ButtonIndex == -1)
+			return
+		endIf
+		set IsMenuShown to 0
+		if (ButtonIndex == 0)
+			activate 
+			return
+		elseIf (ButtonIndex == 1)
+			Player -> addItem "dny_Furn_Sack2" 1
+			setDelete 1
+			return
+		endIf
+
+	endIf
+
+end dny_Furn_Sack2Object

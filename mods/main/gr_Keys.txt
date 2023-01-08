@@ -1,0 +1,62 @@
+"Key Overhaul"
+By Grond1911
+Version: 1.1
+
+============
+Description
+============
+Renames keys with descriptive names, starting with "Key to/for" in 99% of cases for better sorting. Also places keys that only existed in the game data into appropriate locations in the game world.
+
+=============
+Requirements
+=============
+Morrowind, Tribunal, and Bloodmoon.
+The "Daduke compatible" version requires the assets (Icons, Meshes, and Textures) from Daduke's Key Replacer** (v1.4) mod (but you don't need any of his .esp files.) Download it here:
+www.nexusmods.com/morrowind/mods/6749/
+** Already part of the MGSO mega-mod-pack, so if you're using that, you won't need to download it separately. Just remove the "Key Replacer Trib & BM" plugin from your "Data Files" folder.
+
+=============
+Installation
+=============
+1. extract ONE of the "gr_Keys*.esp" files into your "Morrowind\Data Files" folder.
+2. run the "Morrowind Launcher" program.
+3. click on the "Data Files" section.
+4. find "gr_Keys*.esp" in the list of mods and tick the box next to it (type 'g' repeatedly if you can't find it easily).
+5. click the "OK" button. The mod will now be active whenever you run the game.
+* If using the "Daduke compatible" version, you'll need to extract the Icons, Meshes, and Textures folders from his Key Replacer (v1.4) mod's archive into your "Morrowind\Data Files" folder as well (merge the folders when prompted to). You DO NOT need to use any of his .esp files! NOTE: See "Requirements" above if you have MGSO installed.
+
+===========
+Load Order
+===========
+Ideally, this should probably be one of the lowest/earliest mods in your load order. I intentionally set the .esp's "Modified" date way back to 2003 so that this should happen automatically.
+
+==================
+Incompatibilities
+==================
+Incompatible with mods that edit existing keys. Daduke's Key Replacer is the only mod of that sort (that I know of) that people would want to use together with mine, so that's why I made the compatibility .esp. There is Lurlock's Key Namer, but my mod renames as well (and does more besides), so you won't want to use his unless you prefer his naming scheme.
+
+================
+Version History
+================
+1.1 - July 17, 2016
+ + Increased compatibility with mods that let you buy slaves at places that you couldn't in the original game
+ + Made slave keys that were previously undetectable with Detect Key detectable
+ + Renamed "Key to the Skaal Village's Well" to "Key to Lassnr's Well" since there is another well closer to the village center
+ + Dropped the "Morrowind only (no Tribunal or Bloodmoon)" version, because I don't feel like maintaining it (and who doesn't have the expansions by now?)
+ + One or two other minor changes not worth mentioning
+
+1.0 - September 30, 2015
+ + Initial release
+
+============
+Permissions
+============
+Modify my mod, but please document the changes you make to it, and credit me as the original creator.
+Incorporate its edits into your own mod, but give me due credit, if you would be so kind.
+
+========
+Credits
+========
+Thanks to Bethesda Softworks for developing Morrowind and the Construction Set.
+Thanks to Brucoms for developing the TES3 Readme Generator this readme was made from.
+Thank God I got this into a releasable state :)

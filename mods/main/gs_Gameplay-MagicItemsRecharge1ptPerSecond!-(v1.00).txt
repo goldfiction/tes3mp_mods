@@ -1,0 +1,12 @@
+Created By:
+Aphiteth
+
+Summary:
+Item enchantment per-second recharge has been increased from the default 0.0500 to 1.000! (v1.00)
+
+Requires:
+Morrowind
+
+Edits:
+v1.00,
+Altered the "fMagicItemRechargePerSecond" value in the "Gameplay->Settings->Gameplay" to 1.000 from the default vanilla 0.0500.
