@@ -12,7 +12,7 @@
 * mods/main contains all the needed mods to join server
 * the server ip is: 45.62.245.165:25565
 * you will need following mod sequence order
-```js
+```c++
 content=Morrowind.esm
 content=Tribunal.esm
 content=Bloodmoon.esm
@@ -58,7 +58,14 @@ content=Creatures Merged Objects Fix.esp
 content=Wands.ESP
 content=LeFemmArmor.esp
 content=ImperialArmourExpanded.ESP
+content=D2Items.esp
+content=gs_Gameplay-MagicItemsRecharge1ptPerSecond.esp
+content=VandiusMod.esp
+content=Sei's Dynamic Wildlife.esp
+content=ZZZ C000 Lenivchick's Furniture.esp
+content=Enchanting Scrolls.ESP
 content=Morrowind Patch Project v1.6.6 [For Rebirth].esm
 content=EBJ_spell_organizer.esp
+content=gr_Keys.esp
 ```
 * You are welcome to join our steam chat [https://s.team/chat/D4kgZQP9]
