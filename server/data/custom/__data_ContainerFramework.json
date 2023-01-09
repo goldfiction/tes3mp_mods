@@ -1,0 +1,20 @@
+{
+  "recordData":[{
+      "collision":false,
+      "container":{
+        "refId":"dead rat",
+        "type":"spawn"
+      },
+      "guise":{
+        "refId":"misc_vivec_ashmask_01_fake",
+        "type":"place"
+      }
+    }],
+  "instanceData":[{
+      "recordId":1,
+      "container":{
+        "cellDescription":"Character Stuff Wonderland",
+        "uniqueIndex":"0-7329"
+      }
+    }]
+}

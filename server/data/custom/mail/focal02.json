@@ -1,0 +1,13 @@
+{
+  "staffRank":0,
+  "mail":{
+    "inbox":[{
+        "mailTime":1670785039,
+        "mailBody":"123 hello yada",
+        "mailDate":"12/11/22 10:57:19",
+        "mailSendersName":"focal01",
+        "mailSubject":"hello"
+      }],
+    "trash":[]
+  }
+}

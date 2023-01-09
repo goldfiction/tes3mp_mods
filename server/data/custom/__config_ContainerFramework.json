@@ -1,0 +1,13 @@
+{
+  "storage":{
+    "location":{
+      "posX":0,
+      "posZ":0,
+      "posY":0,
+      "rotX":0,
+      "rotY":0,
+      "rotZ":0
+    },
+    "cell":"Character Stuff Wonderland"
+  }
+}

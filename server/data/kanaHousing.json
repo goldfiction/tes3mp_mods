@@ -1,0 +1,59 @@
+{
+  "cells":{
+    "-8, 3":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "resetInfo":[],
+      "name":"-8, 3",
+      "requiresResets":false
+    },
+    "Balmora, Council Club":{
+      "ownedContainers":true,
+      "requiredAccess":false,
+      "house":"Balmora Council",
+      "resetInfo":[],
+      "name":"Balmora, Council Club",
+      "requiresResets":false
+    },
+    "Balmora, Tyermaillin's House":{
+      "ownedContainers":true,
+      "requiredAccess":false,
+      "resetInfo":[],
+      "house":"Abode",
+      "name":"Balmora, Tyermaillin's House",
+      "requiresResets":false
+    }
+  },
+  "houses":{
+    "Abode":{
+      "price":900,
+      "inside":[],
+      "cells":{
+        "Balmora, Tyermaillin's House":true
+      },
+      "doors":[],
+      "name":"Abode",
+      "outside":[]
+    },
+    "Balmora Council":{
+      "price":4000,
+      "inside":[],
+      "cells":{
+        "Balmora, Council Club":true
+      },
+      "doors":[],
+      "name":"Balmora Council",
+      "outside":[]
+    }
+  },
+  "owners":{
+    "focal01":{
+      "houses":{
+        "Abode":{
+          "coowners":[],
+          "isLocked":false
+        }
+      }
+    }
+  }
+}

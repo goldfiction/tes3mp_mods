@@ -1,0 +1,108 @@
+{
+  "stocks":{
+    "test":[{
+        "13":1
+      },{
+        "15":0.33,
+        "16":0.35,
+        "14":0.33
+      }]
+  },
+  "drops":[{
+      "max":10,
+      "item":{
+        "refId":"iron claymore"
+      },
+      "min":1
+    },{
+      "max":10,
+      "item":{
+        "refId":"iron longsword"
+      },
+      "min":1
+    },{
+      "max":10,
+      "item":{
+        "refId":"iron broadsword"
+      },
+      "min":1
+    },{
+      "max":10,
+      "item":{
+        "refId":"iron saber"
+      },
+      "min":1
+    },{
+      "max":10,
+      "item":{
+        "refId":"iron claymore"
+      },
+      "min":1
+    },{
+      "max":10,
+      "item":{
+        "refId":"iron longsword"
+      },
+      "min":1
+    },{
+      "max":10,
+      "item":{
+        "refId":"iron broadsword"
+      },
+      "min":1
+    },{
+      "max":10,
+      "item":{
+        "refId":"iron saber"
+      },
+      "min":1
+    },{
+      "max":10,
+      "item":{
+        "refId":"iron claymore"
+      },
+      "min":1
+    },{
+      "max":10,
+      "item":{
+        "refId":"iron longsword"
+      },
+      "min":1
+    },{
+      "max":10,
+      "item":{
+        "refId":"iron broadsword"
+      },
+      "min":1
+    },{
+      "max":10,
+      "item":{
+        "refId":"iron saber"
+      },
+      "min":1
+    },{
+      "max":10,
+      "item":{
+        "refId":"iron claymore"
+      },
+      "min":1
+    },{
+      "max":10,
+      "item":{
+        "refId":"iron longsword"
+      },
+      "min":1
+    },{
+      "max":10,
+      "item":{
+        "refId":"iron broadsword"
+      },
+      "min":1
+    },{
+      "max":10,
+      "item":{
+        "refId":"iron saber"
+      },
+      "min":1
+    }]
+}

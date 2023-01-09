@@ -1,0 +1,10 @@
+{
+  "scheduledShutdownEnabled":false,
+  "scheduledShutdownTime":360,
+  "shutdownDelay":5,
+  "requiredRank":2,
+  "timeUnit":60,
+  "announcePeriods":[0.5,1,2,3,4,5],
+  "commandName":"shutdown",
+  "announceMessage":"#FF0000[Server]: Server shutting down in %s minutes!\n"
+}

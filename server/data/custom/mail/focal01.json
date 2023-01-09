@@ -1,0 +1,14 @@
+{
+  "staffRank":2,
+  "mail":{
+    "inbox":[{
+        "mailTime":1670785068,
+        "mailBody":"to test or to test",
+        "mailDate":"12/11/22 10:57:48",
+        "hasRead":true,
+        "mailSubject":"test001",
+        "mailSendersName":"focal01"
+      }],
+    "trash":[]
+  }
+}
