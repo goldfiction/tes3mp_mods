@@ -10,7 +10,9 @@
 * pc_client contains a pc client
 * server/scripts/custom contains the scripts adapted for 0.8.0
 * mods/main contains all the needed mods to join server
-* the server ip is: 45.62.245.165:25565
+* the main server is (0.8.0 modded): --connect 45.62.245.165:25565
+* 0.8.0 vanilla is --connect 45.62.245.165:25568
+* 0.8.1 vanilla is --connect 45.62.245.165:25569
 * you will need following mod sequence order
 ```c++
 content=Morrowind.esm
