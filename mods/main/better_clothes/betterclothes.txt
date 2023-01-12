@@ -1,0 +1,113 @@
+Better Clothes Version 1.1
+
+*** Description ***
+
+Better Clothes replaces most of the default clothing from the standard Morrowind game with new non-segmented versions designed to work with Better Bodies. This improves the visual appearance of most items of clothing that are available in stores, and worn by NPCs, and in your inventory.
+
+Better Clothes is a “replacer,” and we have tried our best to remain as close as possible to the original look of the clothing, while providing completely redone meshes and textures. In some instances, however, a degree of artistic license was taken by the individual artists. We have tried to stay as close as possible to the style of the original Morrowind clothing, so that it is still recognizable. but we feel that any such changes fit well with the overall style of the game.
+
+For those familiar with the TES Editor, Better Clothes also frees up several ‘body slots.’ These include the Left Foot, the Left Ankle, the Left Knee, and the Left Upper Leg. Essentially, this means that you can now wear pants and custom “non-hiding” Better Bodies compatible clothing at the same time.
+
+This mod fully supports the Morrowind clothing slot system, so armor can be worn over clothing without completely obscuring or replacing it. This also means that alternative bodies that aren’t based on Better Bodies, such as custom race mods, are also supported so long as they follow the Better Bodies scheme of having free left leg body slots.
+
+Since the existing robes do not cause problems with Better Bodies, and because there were plenty of existing robe replacers created by the community, it was decided that additional work on robes was not necessary. (We suggest using Canadian Ice’s excellent robe replacer found here) http://canadianice.ufrealms.net/Morrowind/Index.html
+
+It was also decided that replacing armor would be outside the scope of this project. Finally, not every item of clothing has been completed. A detailed list of what has been replaced is available in the section below.
+
+
+
+*** Requirements ***
+
+- Morrowind – Expansions are not required
+- Better Bodies v2.1 to v2.2
+
+A beast replacer, such as the following, is also highly recommended (in alphabetical order by creator):
+
+- Sabregirl’s “Better Bodies for Beasts” (Argonians and Khajiit)
+http://www.msu.edu/%7Ekindersa/khajiit.html
+
+- Shon's "New Argonian Bodies" (Argonians only – use in conjunction with one of the other two)
+http://www.liztail.com/view_project.php?prj_id=2
+
+- Slof’s "Better Beasts" (Argonians and Khajiit)
+http://www.slofshive.co.uk/index.php...id=50wonmx8w4k
+
+*** Installation ***
+
+Extract or drag and drop using an unzip tool such as WinRAR or ZipGenius into your “…Morrowind/Data Files” folder.  I have included 2 separate esp files
+Better Clothes_v1.0.esp
+Better Clothes_v1.0_nac.esp (no argonian change)
+
+If you do not wish to use the tailoring kit and do not wish the shirts to change to male for the Argonians then use the "Better Clothes_v1.0_nac.esp" without the other, so only use one the esp files at any time.
+
+
+*** What is Replaced ***
+
+Clothing from the Original Morrowind:
+
+- 18 of the 36 shirts are completely replaced
+- The other 18 shirts have their chest parts replaced with versions that bend more consistently with Better Bodies and have minor alterations to reduce clipping.
+- All of the pants, shoes, and skirts are completely replaced.
+
+Clothing from the Tribunal Expansion:
+
+- 2 pairs of pants are completely replaced and will be release in a separate version.
+
+*** New Features in this Release ***
+
+- Made it possible to wear clothing under armor while still seeing exposed clothing parts with the armor.
+- Made it possible to use this mod in combination with some alternative non-BB bodies.
+- Re-weighted the 18 non-replaced shirt torsos to reduce clipping with Better Bodies and mods such as Shon’s New Argonian Bodies.
+- Made it possible to keep the Argonians from being given breasts by this mod.
+- A pair of male and female underwear has been added. It can be found in the trade house in the locked storeroom on some crates.
+
+*** Known Bugs and Issues ****
+
+- There are currently no known bugs in this mod. It has been cleaned with TESTool and does not make any changes to NPC that would cause doubling of any kind. 
+- Mods such as Morrowind Comes Alive which add their own clothing meshes and assignments will not have their clothes replaced by this mod.
+- Marah’s Blouse has a special “non-hiding” female version that prevents the male version from having enough clothing slots to support armor mixing. However, the Argonian version of this shirt does support armor mixing.
+- The glass and ebony boots will clip slightly with pants which use the ‘gait’ pants mesh with the billowy part at the bottom of the leg. This could not be corrected without straightening out the pants and destroying their individuality, so if this bothers you, you will need to wear a pair of straight pants with these boots.
+
+*** Argonian-Awareness Instructions***
+
+Starting with version 1.0, Better Clothes includes the option to keep your Argonians from growing breasts due to enabling the mod. If you use a beast replacer that gives Argonians breasts intentionally, you can simply ignore these new features and choose to enable the ESP file marked “nac” for “No Argonian Change.”
+
+For those of you who want to keep your Argonians as they were in the original game, follow the steps below. This applies whether or not your character is an Argonian as the NPCs are also affected.
+
+1) Setup (for everyone)
+
+The first thing you need to do is find the nearest seller of clothing and talk to them. This is defined as an NPC with the “Clothier,” “Trader Service,” or “Pawnbroker” class. Talking to them will add the “tailoring kit” and “clothing fit” dialog topics to all characters in the game, and will start a script that fixes the shirts on the 20 female Argonian NPCs that wear them in the standard game. The message might seem a little out of place, but doing it this way allows us to support the original Morrowind, as start scripts were added by Tribunal.
+
+2) The Tailoring Kit (for female characters only)
+
+The tailoring kit is a weightless item that you can get for free from the clothes sellers mentioned above by talking to them and clicking the “tailoring kit” topic. The tailoring kit is used to fix clothing on your own character to have the correct shape based on race. Whether or not your character is an Argonian, you may end up with clothing of the wrong type (breasts or no breasts) for various reasons, and equipping the tailoring kit will fix all such BC clothing in your inventory.
+
+If you lose your tailoring kit, you can get another one from anyone who likes you enough. Argonian NPCs are especially willing to give out tailoring kits to fellow Argonians.
+
+3) Fixing the Clothing on NPCs (For everyone)
+
+For various reasons, you may run into female NPCs that have wrong-looking shirts. They may be from a mod or from one of the expansions, or you may have passed them the wrong type of shirt during a bartering transaction. Whatever the reason, if the problem is caused by a piece of BC clothing, you can fix it simply by talking to them and clicking the “clothing fit” topic. This will cause their clothes to instantly swap to the correct version for their race.
+
+***Credits***
+
+Creators (in alphabetical order):
+
+Calishlan (textures) shirts, pants, shoes, skirts
+Dereko (meshes) pants conversion, shoes, underwear (Project Coordinator)
+Greybeard (physiqueing) shirts (Texture Mapping assistance)
+Neuman (original pants)
+NioLiv meshes (all Skirts, Shirts) (texture mapping)
+Shon (mesh editing for armor and alternate body compatibility)(scripting)
+
+Special thanks to:
+Korana - textures 2 shoe textures common1 and common2,
+Sierre (original skirts)
+Silaria (Meshes original Shirts)
+
+
+And of course
+Fariel, Neuman, Zenorf, and the other contributers at Psychodog Studios for the BB mod, without which none of this would have been possible.
+
+***Permission Policy***
+
+If you wish to ask for permission to use any part of this mod, please ask the individual artist responsible for the resources you wish you to use.
