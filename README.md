@@ -14,7 +14,7 @@
 * 0.8.0 vanilla is --connect 45.62.245.165:25568
 * 0.8.1 vanilla is --connect 45.62.245.165:25569
 * you will need following mod sequence order
-```c++
+```javascript
 content=Morrowind.esm
 content=Tribunal.esm
 content=Bloodmoon.esm
@@ -53,9 +53,6 @@ content=Siege at Firemoth [For Rebirth].esp
 content=Uvirith's Legacy 3.53 [For Rebirth].esp
 content=A Bard's Life.esp
 content=Creatures.esp
-content=Creatures (lore).esp
-content=Creatures (Semi).esp
-content=Creatures Merged Objects Fix.esp
 content=Wands.ESP
 content=LeFemmArmor.esp
 content=ImperialArmourExpanded.ESP
@@ -65,6 +62,9 @@ content=VandiusMod.esp
 content=Sei's Dynamic Wildlife.esp
 content=ZZZ C000 Lenivchick's Furniture.esp
 content=Enchanting Scrolls.ESP
+content=Better Clothes_v1.1.esp
+content=Welcome to the Arena! v6.7.esp
+content=Improved magicka and alchemy with bonuses.esp
 content=Morrowind Patch Project v1.6.6 [For Rebirth].esm
 content=EBJ_spell_organizer.esp
 content=gr_Keys.esp
