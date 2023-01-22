@@ -57,6 +57,12 @@ content=Wands.ESP
 content=LeFemmArmor.esp
 content=ImperialArmourExpanded.ESP
 content=D2Items.esp
+content=MMC.ESP
+content=TDlists.ESP
+content=PackGuarTravel.ESP
+content=FasterFatigueRegen.ESP
+content=Animal Tamer.ESP
+content=UnarmoredBalancedClean2.esp
 content=gs_Gameplay-MagicItemsRecharge1ptPerSecond.esp
 content=VandiusMod.esp
 content=Sei's Dynamic Wildlife.esp
@@ -68,6 +74,7 @@ content=Improved magicka and alchemy with bonuses.esp
 content=Morrowind Patch Project v1.6.6 [For Rebirth].esm
 content=EBJ_spell_organizer.esp
 content=gr_Keys.esp
+content=creeper_all.ESP
 content=GR_BalmoraMagesGuildSellAllSummoningSpells.ESP
 ```
 * You are welcome to join our steam chat [https://s.team/chat/D4kgZQP9]
