@@ -46,6 +46,7 @@ content=Skyrim Home of the Nords [For Rebirth].esm
 content=Siege at Firemoth [For Rebirth].esp
 content=Uvirith's Legacy 3.53 [For Rebirth].esp
 content=A Bard's Life.esp
+content=TES3MP_Combat_Music.esp
 content=Sei's Dynamic Wildlife.esp
 content=LeFemmArmor.esp
 content=ImperialArmourExpanded.ESP
