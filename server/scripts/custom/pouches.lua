@@ -400,15 +400,16 @@ pouches.fillItemPouch = function(pid, pouchRefId)
 				if tableHelper.containsValue(pouchData.allowedRefIds, iRefId:lower()) then
 					local giveAmount = Players[pid].data.inventory[item].count
 					depositAmount = depositAmount + giveAmount
-					
-					if targetDB.player[name].items[iRefId] ~= nil then
-						targetDB.player[name].items[iRefId] = (giveAmount + targetDB.player[name].items[iRefId])
-					else
-						targetDB.player[name].items[iRefId] = giveAmount
+
+					if targetDB.player[name] ~= nil and targetDB.player[name].items ~= nil then
+						if  targetDB.player[name].items[iRefId] ~= nil then
+							targetDB.player[name].items[iRefId] = (giveAmount + targetDB.player[name].items[iRefId])
+						else
+							targetDB.player[name].items[iRefId] = giveAmount
+						end
+						targetDB.player[name].count = (giveAmount + targetDB.player[name].count)
+						pouchItemRemove(pid, iRefId, giveAmount)
 					end
-					
-					targetDB.player[name].count = (giveAmount + targetDB.player[name].count)
-					pouchItemRemove(pid, iRefId, giveAmount)
 					triggerSave = true
 				end
 				
@@ -612,10 +613,10 @@ local loginFunction = function(pid)
 						--if targetDB.player[name] == nil then
 							local pouchRefId = string.lower(pouchRef)
 							if not inventoryHelper.containsItem(Players[pid].data.inventory, pouchRefId) then
-								
-								tes3mp.MessageBox(pid, -1, pouchData.pouchName.." has been added to your inventory.")
+								-- tes3mp.MessageBox(pid, -1, pouchData.pouchName.." has been added to your inventory.")
 								pouchItemAdd(pid, pouchRefId, 1)
 							end
+							pouches.fillItemPouch(pid, pouchRefId)
 							pouches.isPlayerInDB(pid, dbName)
 						--end
 					
