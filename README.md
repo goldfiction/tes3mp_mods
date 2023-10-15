@@ -10,9 +10,32 @@
 * pc_client contains a pc client
 * server/scripts/custom contains the scripts adapted for 0.8.0
 * mods/main contains all the needed mods to join server
-* the main server is (0.8.0 modded): --connect 45.62.245.165:25565
-* 0.8.0 vanilla is --connect 45.62.245.165:25568
-* 0.8.1 vanilla is --connect 45.62.245.165:25569
+* sorry we were down for last few months. Our server is now available in a different ip address.
+* the main server is (0.8.0 lite): --connect 45.62.236.6:25565
+* 0.8.0 vanilla is --connect 45.62.236.6:25568
+This is needed for 0.8.0 lite server
+````javascript
+[
+    {"Morrowind.esm": ["0x7B6AF5B9", "0x34282D67"]},
+    {"Tribunal.esm": ["0xF481F334", "0x211329EF"]},
+    {"Bloodmoon.esm": ["0x43DD2132", "0x9EB62F26"]},
+    {"GR_AmuletOfIntelligence.ESP":["0x7635002F"]},
+    {"GR_belt_of_flight.ESP":["0xA8F5BAFB"]},
+    {"GR_enchanting.ESP":["0xD7193213"]},
+    {"GR_NotEnoughIngredients.ESP":["0xCAF9D40E"]},
+    {"Rapport 2.0.ESP":["0xC6D3D0E6"]},
+    {"Arena of the Immortals_1.1.ESP":["0x2B60BE1A"]},
+    {"ring_teleport v3_Tealpanda.esp":["0x21C610BD"]},
+    {"Welcome to the Arena! v6.7.esp":["0xFDBCA58A"]},
+    {"EBJ_spell_organizer.ESP":["0x6A49E525"]},
+    {"GR_BalmoraMagesGuildSellAllSummoningSpells.ESP":["0x2F3BDE9F"]},
+    {"gs_Gameplay-MagicItemsRecharge1ptPerSecond.esp":["0x8D285C12"]}
+]
+````
+
+````txt
+below is obsolete
+````
 * you will need following mod sequence order
 ```javascript
 content=Morrowind.esm
