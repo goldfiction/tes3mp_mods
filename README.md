@@ -13,7 +13,9 @@
 * sorry we were down for last few months. Our server is now available in a different ip address.
 * the main server is (0.8.0 lite): --connect 45.62.236.6:25565
 * 0.8.0 vanilla is --connect 45.62.236.6:25568
-This is needed for 0.8.0 lite server
+* 0.8.1 vanilla is --connect 45.62.236.6:25569
+
+* This is needed for 0.8.0 lite server
 ````javascript
 [
     {"Morrowind.esm": ["0x7B6AF5B9", "0x34282D67"]},
