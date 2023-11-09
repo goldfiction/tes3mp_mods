@@ -2,6 +2,11 @@
 ***
 * This is repo for Goldfiction server
 * the server uses 0.8.0 TES3MP version
+***
+* I have uploaded a 2nd snapshot of my current data files
+* [https://drive.google.com/drive/folders/1FbQM2WpsMNFxQnso9_OovoR8CTRVC00Z?usp=sharing]
+* You will need to use 7zip to uncompress the data files [https://www.7-zip.org/]
+***
 * Added grass cover for all regions
 * Removed Grass Vanilla2.esp from required mod list
 * you need to copy all the files to /morrowind/data files/
