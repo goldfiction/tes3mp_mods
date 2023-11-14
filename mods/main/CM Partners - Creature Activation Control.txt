@@ -1,0 +1,30 @@
+CM Partners - Creature Activation Control V1.1.1
+=========================================
+
+This is an add-on for CM Partners (works for Baron's Partners too).
+
+It modifies the beastscript which is attached to all creatures provided by CM Partners.
+Your creatures are now controllable by just activating and selecting a choice in the messagebox window instead of by using the dialogue. This method is way faster (especially when the player is a vampire and is using Cortex's Vampire Embrace mod ).
+The choices in the messagebox window are : "Follow", "Wait", "Wander" & "...nevermind..."
+You are able to acces direct companion share by activating your creature while sneaking.
+
+Version History:
+
+v1.1.1
+- Your creatures can now gain health per player level instead of having a fixed 150 of it. Use the new "Train" option in the "Command" submenu to raise your
+creature's health. The formula is Creature Health = 20 * Player Level
+
+note:: 
+- You cannot abuse the "Train" command to restore your health, I made sure of that.
+- Again you may encounter harmless warnings when updating due the increasal of variables in beastScript.
+
+v1.1
+- Anytime you acces the messagebox menu the creatures current health is displayed an the bottom of the screen
+- the option "commands" is now available, giving further options like "Stay outside" and "Follow inside"
+- creatures now won't teleport while the player has weapon/spell ready -  This prevents them from teleporting to you when the combat target is far away.
+
+
+================================================================================================================
+
+Requirements: Morrowind, Tribunal, Bloodmoon & CM Partners or Baron's Partners
+

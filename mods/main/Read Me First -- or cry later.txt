@@ -1,0 +1,11 @@
+Before installing this verion:  Most of you probably know this by now, but I didn't want anyone to say they weren't warned.  In most cases, I haven't had ill effects from simply overwriting the patch and loading a game with a crowd of FnR NPC's, though I've had one save file permanently corrupted, so you might want to take precautions against doubling and data corruption.
+
+Before you unzip this version and overwrite your current esp, load up your save(s) and get to a cell with no FnR NPC's in it, leaving whatever party members you have behind. Then you can safely proceed with installing the new version.
+
+If you have Bloodmoon installed and still want mystic party members to carry you back and forth, check the Bloodmoon travel addon.
+
+If you use the Havish patchlet from the last release, be sure to uncheck that in the Data Files and check the BM-Havish addon instead. It won't be necessary, so you won't miss it if you chose to delete it.
+
+Have fun, and as usual please sent me bug reports, requests and ideas.
+
+ Dok Enkephalin

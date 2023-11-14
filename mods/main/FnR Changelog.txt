@@ -1,0 +1,21 @@
+Friends and Rivals Changelog 9/8/04
+
+Somehow I LOST the original changelog, so this is pretty much going from memory:
+
+ - The main Friends and Rivals esp no longer depends on Bloodmoon. There aren't any companions there yet anyway, so the Bloodmoon esp included with this file is just an extension of dialog and script options that allow you travel to and from and within Bloodmoon cells. The separate Havish patch also includes Bloodmoon travel; you don't need to install both.
+
+ - Some other travel fixes. It's not completely repaired, but travel will work within the guidelines given in the main Friends and Rivals readme.
+
+ - Some script tweaks, moved around bits and pieces to keep the total frame load down. FnR's should run more efficiently, a big plus if you like to run around with a pack of them.
+
+ - Mercenaries now hire for a reasonable proportion of your and their mercantile. If you have better merc, you get a better deal, if they have better merc, they drive a harder bargain.
+
+ - Faction mates will not hire themselves out to you as a mercenary, and if you join your mercenary's faction, they will quit being your mercenary. Their chances of becoming your companion and joining you for free is higher, though. If leave you, you still have a chance to collect your balance back from them before you leave the cell, or you could just leave them with the excess gear and goods with them and tap them to join your party.
+
+ - Imperial cult members no longer try to convert you EVERY time you talk to them. So the second time you talk to them the standard FnR dialog interaction will be available. They also no longer try to convert players who are already a member of the Imperial cult or are a member of the player's party.
+
+ - Desperately injured NPC's trying to leave your party will no longer continually forcegreet you. Instead they'll just crawl off to bleed to death on their own. You heartless monster.
+
+ - Jariel will only join you if you've been sponsored by Curio. Ahnassi won't join you until you meet her at her home, where she will automatically be considered lover status with all rights and perks. It's up to you whether you wish to take her with you.
+
+ - Previously, a party member's leveling time would be set back if you dropped them off or left them behind somewhere. Now their leveling time will be reset only if you drop them off or lose them for a day or more. If you set them to guard or wait for you, their leveling time will only be set back a few hours, and if you lose them behind someplace for less than a day, their leveling time will be unchanged. It happens, so I tried to be flexible with it.

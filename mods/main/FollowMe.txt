@@ -1,0 +1,29 @@
+Follow Me! v1.0 Final
+---------------------
+
+by Shade the Bandit
+
+
+What it is
+----------
+This is a simple little mod that allows you to recruit NPCs that have a disposition of 100.  Two topics are added to every NPC in the game: "follow me" and "wait here."  There is no companion sharing involved, unfortunately, but I did not want to make a mod that required any external programs like MWSE.  NPCs that are following you will fight for you, and that's about it.  I guess you get their stuff if they die.
+
+Warnings, etc.
+--------------
+This is potentially game-breaking if you use it on quest characters and get them killed, or tell a character that is supposed to walk from A to B to stay where they are.  Use discretion when using this.  I recommend using it with generic (non-named) NPCs, like those named "Guard" or "Commoner."  Works well with generic MCA NPCs.
+
+Troubleshooting
+---------------
+If for some reason you talk to an NPC and the topics "follow me" and "wait here" don't show up, go to the Seyda Neen Cesus and Excise Office and activate the piece of paper on the table by Sellus Gravius.  This will manually add the topics.
+
+Recommendations
+---------------
+Use this with my other mod, "Invasion Rings," for some sweet roleplaying experiences.  Recruit the Balmora guards, and then stage an Imperial assault on the town.  Invade Vivec with an army of discontented peasants.  Lead a slave rebellion to capture Fort Moonmoth.  The possibilities (if you will forgive the rather trite expression) are endless.
+
+Blame, lawsuits, and stuff
+--------------------------
+Just so you know, I am innocent of any wrongdoing should your computer decide to do strange things while this mod is active.  Back up Morrowind.INI and any save before installing *any* mod.
+
+Other random stuff
+------------------
+Um.  Enjoy the mod.  That is not a request.

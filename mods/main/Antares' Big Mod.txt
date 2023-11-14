@@ -1,0 +1,393 @@
+*************************************************
+
+  	   The Elder Scrolls III
+        	      MORROWIND: 
+	  Antares' Big Mod
+		
+	by Arcimaestro Antares
+	
+*************************************************
+
+Index:
+1. Introduction
+2. Installation
+3. Credits & Usage
+4. Contacts 
+5. My Mods
+6. Mod Suggested
+
+*************************************************
+
+1 INTRODUCTION
+
+This mod includes 10 of my mods. All the mods of the series "Privileges" and "Services".
+- Agent's Services
+- Alchemist's Services
+- Apothecary' s Services
+- Archmage's Privileges
+- Archmagister's Privileges
+- Master Thief's Privileges
+- Morag Tong's Services
+- Patriarch's Privileges
+- Scout's Services
+- Smith's Services
+
+********************Agent's Services****************************
+
+With this plugin, you may ask the agents in Morrowind to offer their special services.
+To start, speak to a NPC that belongs to the class Agent (for example, Mervs Uvayn in Balmora, Hlaalu Council Manor) about "my trade". It will add the topic "agent's services".
+According to the description of that class, they "work for a House, or a company, or the state, and do things that need doing. All sorts of things. Mostly I handle matters in the business or diplomatic line, things that require mercantile skills, or the arts of speechcraft. I trade in knowledge -- hard facts and rumors. 'Knowledge is power,' as they say. And sometimes I do other sorts of things. Things I can't talk about."
+
+So, in my mod they can:
+- help you to join a faction;
+- help you to rejoin a faction if you have been expelled;
+- clear your name if you get a bounty;
+- tell you where to find an assassin;
+
+This last service can be useless in the original Morrowind, but it is an information that an agent should provide to his client, moreover if you have my mod "Morag Tong's Services", that allows you to hire assassins to kill NPCs (or other similar mods), this information can become useful.
+
+In Morrowind, there are many agents. Most of them are independent agents and can be hired by anyone. Agents that belong to a faction, will serve the PC only if he also belongs to that faction.
+
+I made 4 papers with the names of the agents that work for the Great Houses and the Morag Tong.
+
+1) In Balmora, Hlaalu Council Manor,
+between the pages of a book, you'll find a paper with the names and the location of all the Hlaalu agents in Vvardenfell.
+
+2) In Ald-ruhn, Morag Tong Guildhall
+between the pages of a book, you'll find a paper with the names and the location of all the Morag Tong agents in Vvardenfell.
+
+3) In Ald-ruhn, Arobar Private Quarters
+between the pages of a book, you'll find a paper with the names and the location of all the Redoran agents in Vvardenfell.
+
+4) In Sadrith Mora, Tel Naga Upper Tower
+between the pages of a book, you'll find a paper with the names and the location of all the Telvanni agents in Vvardenfell.
+
+Beware, these papers belongs to the faction, so if you aren't a member, you'll be attacked if you take them.
+
+
+
+********************  Alchemist's Services***************************
+
+
+With this plugin, you may ask the alchemists in Morrowind to prepare potions for you, even if they don't have them for sale.
+To start, speak to an Alchemist Service (like Nalcaraya Of White Haven in Balmora) about "my trade". It will add the topic "Alchemist's Services.".
+You can then choose the potion of your choice and its quality. High level alchemists can prepare Quality and Exclusive potions and also potions of Cure Blight Disease.
+
+*********************Apothecary' s Services***************************
+
+With this plugin, you may ask the apotecaries in Morrowind to prepare potions for you, even if they don't have them for sale.
+To start, speak to a NPC that belongs to the class Apothecary Service (for example, Dralval Andrano, in Balmora Temple) about "my trade". It will add the topic "apothecary' s services."
+According to the description of that class, they "brew and sell potions to heal wounds, restore bodily and mental attributes, and cure diseases." So, in my mod they can prepare the following potions:
+
+ "cure blight disease" "cure common disease" "restore agility" "restore endurance" "restore fatigue" "restore health" "restore intelligence" "restore speed" "restore strength" "restore willpower".
+
+You can choose the potion of your choice and its quality. High level apotecaries can prepare Quality and Exclusive potions and also potions of Cure Blight Disease.
+You must pay always 10 gold in advance for this job (this was suggested by Savor Rethan from the Official Forum)
+
+**********************Archmage's Privileges**************************
+
+With this plugin, if you are a member of the Mages Guild, rank journeyman or higher, 
+- you can promote the lower ranking members in the guild to a higher rank; 
+- you can expel the lower ranking members from the guild; 
+- you can teach the disciplines of Alchemy, Alteration, Destruction, Enchant, Illusion and Mysticism to the other members of the faction and to be paid for it; 
+- you can teach spells to the other members of the faction and be paid for it;
+ -you can send the lower ranking members of the faction to find the ingredients that you need for your experiments, and then reward them. The members can then gain experience (level, items ecc...)
+
+If you are a member of the guild of mages of rank journeyman or higher, talk to another member of the faction.
+It adds the topics:
+- advancement
+- expel from the Mages Guild: 
+- find:
+- reward:
+- teach disciplines: 
+- teach spells:
+
+When you ask a member to find something, sleep on a bed or change cell. The NPC will disappear and will appear again after 1- 8 days. Use again the topic "find" to ask him what he found. 
+If he found something, 
+- the NPC may aquire experience. His level, his skills, his statistics, his health, magicka and fatigue  may increase.
+- the NPC may have found an item: a short blade, a magical ring or a magical robe. He keeps this item for himself
+- the NPC will lose 10-25 of disposition (the amount depends on the value of the items requested by the PC)
+
+To increase again his disposition, you can use as always, admire or bribe. Alternatively, you can use the topic "reward". It allows you to reward him with gold, magical rings, magical robes, or short blades. Otherwise, you can use the topic "Advancement" to promote him to an higher rank. This will increase his disposition.
+
+***********************Archmagister's Privileges*************************
+
+With this plugin, if you are member of the House Telvanni, rank Mouth or higher,  
+- you can promote the lower ranking members in the faction to a higher rank; 
+- you can expel the lower ranking members from the faction; 
+- you can teach the disciplines of Alteration, Conjuration, Destruction, Enchant, Illusion and Mysticism to the other members of the faction and be paid for it; 
+- you can teach spells to the other members of the faction and be paid for it; if you are master or higher rank, you aren't paid anymore for teaching, but the disposition of the NPCs will increase:
+ -you can send the lower rank members of the faction to find the ingredients that you need for your experiments, and then reward them. The members can then gain experience (level, items ecc...)
+
+If you are a member of the House Telvanni of rank Mouth or higher, talk to another member of the faction.
+It adds the topics:
+- advancement:
+- expel from the House Telvanni: 
+- find:
+- reward:
+- teach disciplines: 
+- teach spells:
+
+When you ask a member to find something, sleep on a bed or change cell. The NPC will disappear and will appear again after 1- 8 days. Use again the topic "find" to ask him what he found. 
+If he found something, 
+- the NPC may aquire experience. His level, his skills, his statistics, his health, magicka and fatigue  may increase.
+- the NPC may have found an item: a short blade, a magical ring or a magical robe. He keeps this item for himself
+- the NPC will lose 10-25 of disposition (the amount depends on the value of the items requested by the PC)
+
+To increase again his disposition, you can use as always, admire or bribe. Alternatively, you can use the topic "reward". It allows you to reward him with gold, magical rings, magical robes, or short blades. Otherwise, you can use the topic "Advancement" to promote him to a higher rank. This will increase his disposition.
+
+********************* Master Thief's Privileges***************************
+
+With this plugin, you can select as target any NPC and  hire the Guild of Thieves to steal the NPC's items. 
+Moreover, if you are a member of the Guild, you can teach disciplines to the lower rank members and be paid for it.
+If you are the Master of the guild, you can promote the lower rank members in the guild to a higher rank.
+
+
+In detail:
+- ask someone about "Thieves Guild". It'll add the topics "steal", "reward", "advancement", "teach disciplines", "take for me".
+- go to one of the cities where there is a Thieves Guild (Balmora, Sadrith Mora, Ald-Ruhn, Vivec). Talk to someone . Select from his dialogue option, the topic "steal". Exit the dialogue, and click again on the NPC.
+A message will appear "target selected"
+-when you select a target, do not wait for the days to pass. Your first action will be to go the the guild and talk to the master.    
+Go to the local Thieves Guild and talk to the Mastermind of the guild (In Vivec, talk to Arantamo) and select the topic "take for me". You must pay a price for this job.
+- wait 1 or 2 days in the guild and, when you see the message,"the thief should have completed the mission" talk to the master.
+According to my tests; if you wait more days, Morrowind will crash.
+-If the thief has found something, go to the "Cellar" beyond a trapdoor in the Guild (it is a new cell). Click on the chest called "stolen goods". It will open the inventory of the NPC. Take the items that you want but, after you close the window, you cannot access it anymore.
+As always, if you try to sell these items to the original owner, he'll recognize his stolen goods.
+Member of the Morag Tong, Camonna Tong,  Thieves Guild , or other Thieves cannot be robbed. They will not have the topic "steal".
+
+If you are the Master thief, you may send the lower rank members to steal from the NPC. If they come back successfully, they may aquire experience (level, health, skills, stats ecc...) and get some items. If you have this rank, you have not to pay. 
+However, the thief's disposition, will grow low. To increase it again, you can use Bribe or Admire as always. Alternatively, you may use the topic 'reward' to reward him with gold or use the topic Advancement to raise his rank in the faction. Diong this will increase his disposition.
+
+If the thief's disposition is under 35; the thief will always answer that all the members are busy at that moment, and can not work for you.
+
+DISCLAIMER
+You CANNOT make steal non permanent NPCs (as the NPCs of Morrowind Comes Alive), and you cannot send them to steal from someone. If you do it, Morrowind will crash.
+
+***********************Morag Tong's Services*************************
+
+With this plugin, you can select as target an NPC and then hire an assassin to kill him. You can hire members of the Morag Tong, the Camonna Tong and independent assassins.
+Moreover, if you are a master of the Morag Tong, you can:
+- teach disciplines to the lower rank members and be paid for it;
+- promote them to a higher rank;
+- send them to kill the chosen target and reward them;
+When an assassin hits the mark, he can gain experience and new weapons and items. His level, his skills, his statistics, his health, magicka and fatigue may increase.
+EXTRA
+
+
+In detail:
+Talk to someone about "Morag Tong". This will add the topics "target", "kill the target", "legal writs", "grey writs", "teach disciplines", "reward", "advancement", "what about a drink?"
+
+- the target:
+If you want to select someone as target of an assassination, just use the topic "target", to start talking with him.
+Then you must choose who will kill the target.
+If you change your mind, just select the topic "target" again, and this one will become the new one. But, if you have already hired an assassin for this target, it cannot be changed anymore, before the assassin completes his mission. Then (if he kills the target or if he fails), you can select a new target.
+No one will assassinate members of the Morag Tong, of the Camonna Tong or other assassins.
+
+- Independent assassins:
+When the target is selected, use the topic "kill the target", to start talking to an assassin (class "assassin" or "assassin service"). If they accept (if the target is not too powerful for them), they'll tell you the price. If you don't have enough money or if you don't want to pay, it is better to not waste their time. Independent assassins can be dangerous. However, they can be hired by anyone, they don't care who hires them.
+After you pay, change cell or sleep on a bed. The assassin will disappear. After 1-7 days, you'll receive a message that will inform you if the assassin hit the target or not. If he fails, he might be captured and then he'll inform the victim of who hired him...so the victim will not be glad to see you.
+The assassins that belong to a faction, will offer their services only to members of their own faction.
+
+- Camonna Tong members:
+they work in the same way with the independent assassins, however they are more dangerous. So, before you hire one of them, it is better you have intention to pay.
+
+- Morag Tong:
+The Morag Tong has two type of writs:
+- "legal writ"
+- "grey writ"
+
+LEGAL WRIT
+The Morag Tong "legal writ" is expensive, and they accept a legal writ only if the client is
+- an agent of the Empire (member of the Blades, rank Operative, or higher/ member of the Imperial Legion, Agent or higher);
+- an agent of one of the three Great Houses (rank 4 or higher- even if the rank is not so high, it is supposed the PC work for that house, so he may ask a writ ordered by the Grandmaster of his House).
+- master of the Morag Tong
+
+Talking to a master of the Morag Tong:
+If he refuses the writ or if you don't have enough money, no particular negative consequences will happen.
+If he accepts the writ, a generic assassin will be sent. In 1-7 days you must come back to him, again talk about the "legal writ", and he'll inform you about what has happened. If the assassin failed, he'll refund you the half of the price paid.
+
+If you are a master of the Morag Tong, you can talk to a lower rank member to execute the writ.
+Use the topic "legal writ". If the assassin accepts, change cell or sleep on a bed. The assassin will disappear. After 1-7 days, you'll receive a message that will inform you if the assassin hit the target or not. You do not have to pay him, but ìf he comes back, his disposition will grow low (or more if the target was more powerful than the assassin).
+
+
+GREY WRIT
+This means that the assassin will take the money for him and it will not be known by the guild. Everyone can ask for a Grey Writ, but the members of the Morag Tong will confess if they do a grey writ, only if their disposition is 95 or higher (80 if the PC is a member of the guild).
+If the PC is a master of the Morag Tong, the NPCs will never confess to him that they accept grey writs.
+Use the topic "grey writ". If he refuses the writ or if you don't have enough money, no particular negative consequences will happen. After you pay, change cell or sleep on a bed. The assassin will disappear. After 1-7 days, you'll receive a message that will inform you if the assassin hit the target or not.
+To increase his disposition again, you can use as always, admire or bribe. Alternatively, you can use the topic "reward".
+to reward him with gold. Otherwise, you can use the topic "Advancement" to promote him to a higher rank. This will increase his disposition.
+In this mod there is not a way to know the rank of other Npcs, because there are already many popular mods that do that (for example Dracandro's Voice and Give your Orders).
+In this mod there is not a way to expel a member from the guild, because it is well done by the mod Dracandro's Voice.
+
+A member of the Morag Tong will die, but will never confess who sent him.
+
+EXTRA: WHAT ABOUT A DRINK?
+If you are a member of the Morag Tong (rank White Thrall or higher), talk to Minnibi Selkin-Adda, at the Morag Tong guild of Vivec. Ask him "what about a drink?"
+He can make a poisoned liquer that you can offer to NPCs to drink...
+You cannot offer it to Members of the Morag Tong, Alchemists, and Alchemistis Service (because they could understand it is a venom).
+
+DISCLAIMER:
+every time an NPC is killed, before you can select another NPC as target, you must go in the same cell of the last victim.
+You CANNOT make assassinate non permanent NPCs (as the NPCs of Morrowind Comes Alive), and you cannot send them to kill someone. If you do it, Morrowind will crash.
+
+
+**********************Patriarch's Privileges**************************
+
+With this plugin, 
+
+As member of the Temple, you may:
+- teach some disciplines to the lower ranking members and be paid for it;
+
+As master of the Temple, moreover you may:
+- promote the lower ranking members to a higher rank;
+- expel the lower ranking members from the faction;
+- arrest Npcs for Heresy (but the Grand Inquisitor will decide their fate).
+
+As Patriarch, moreover you may:
+- send groups of Ordinators on missions.
+- arrest and judge Npcs for Heresy;
+- try to persuade Npcs to worship the Temple;
+- send the members of the faction to build new shrines;
+- talk to Vivec and receive special blessings and duties;
+
+In detail:
+Go to the High Fane of Vivec. In the library you'll find a book named "Patriarch's Privileges". It belongs to the Patriarch. If you aren't the Patriarch, don't take it, otherwise the guards will attack you. Just read it. It'll add the topics: about the prisoner, accuse of heresy, arrest the heretic, build a Shrine, make a pilgrimage, send Ordinators, divine blessing, teach disciplines, expel from the Temple.
+If you are the Patriarch, take the book. Under it, you'll find the key to the Palace of Vivec.
+If you are the Patriarch, at the High Fane in Vivec, on the Patriarch's desk, you'll find a scroll named "Orders for the Temple". 
+If you are the Patriarch, you'll find a scroll named "Orders for the Ordinators" on the desk of the Grandmaster Berel Sala in Vivec, Justice Offices. 
+If you are the Patriarch, talk to Vivec. He has a special blessing to give you: he'll impress his sign on you so that most of the people in Morrowind will recognize that you have the mark of Vivec upon you, and will stop fighting you (but under some conditions: you mustn't have a bounty, Vivec must be alive, you mustn't be a vampire, the NPC must be under the 35th level, the PC mustn't react to the attack. The Dreamers, Daedric worshippers, bandits ecc... are not influenced because they don't respect Vivec).
+
+- teach disciplines
+using this topic, you can teach the disciplines of  Alchemy, Blunt Weapon, Conjuration, Mysticism, Restoration, Unarmored, and be paid for it. However, if you are the Patriarch, you cannot be paid anymore, but the disposition of the member will increase.
+
+- expel from the Temple:
+using this topic, you may menace the NPC. This may increase their disposition (due to the fear to be expelled) as well as they can leave the temple and they may join the Sixth House or the daedric cult, and you may find again them in the future, as antagonists... 
+
+- accuse of heresy/arrest the heretic/about the prisoner:
+you may accuse anyone of heresy. However, you must then send an Ordinator to arrest him (using the topic "arrest the heretic"). If you are the Patriarch, you may also speak to the chief of the Ordinators, Berel Sala. He'll send the guards to arrest the Npc. When you accuse someone of heresy, if he is a member of one of your factions, you'll be expelled from it. He may also attack you. If the Npc is arrested, he'll disappear for a period. After a week, the Grand Inquisitor at the Ministry of Justice, decides his fate. Of course, if  the Npc is absolved, will come back to his place, but will not be glad to see you again...
+If you are the Patriarch, you may fly to the Ministry of Truth and Order the Grand Inquisitor (using the topic "about the prisoner") to free the prisoner or to execute him.
+However, the Ordinators, Berel Sala and the Grand Inquisitor are not completely under the control of the Patriarch. So, if their disposition is not high, they may refuse to arrest/execute someone (in particular if you want to arrest/execute important and influential Npcs).
+
+- send Ordinators:
+If you decide to send a group of Ordinators somewhere, equip the scroll "Orders for the Ordinators". This will select the place where the Ordinators will be sent. Talk to Berel Sala, in Vivec, Justice Offices, about "send Ordinators". You may send a group of 1,2,3 or 4 Ordinators there. When you are on site, talk to one of them to give them instructions. 
+Everytime you send a group of Ordinators somewhere, Berel Sala's disposition will grow low. When his disposition is under 35, he'll not agree to give you more guards. You may use persuasion as always to increase it again.
+
+- divine blessing
+Talk to Lord Vivec and choose your blessing. However, Lord Vivec will ask you something back. (persuade an Npc to make a Pilgrimage, or build a New Shrine).
+Vivec can restore the health, cure common and blight disease, cancel the memory of the Npc that hunt you and give you a special protection that teleports you to the Temple when you are close to death. He can also cure Vampirism.
+
+- make a pilgrimage:
+using this you may persuade a Npc (not member of the Temple) to start the Pilgrimage of the Seven Graces. If you succeed, you gain 1 point of luck.You cannot persuade a Npc twice.
+
+- build a Shrine:
+Equip the scroll "Orders for the Temple" where you want (not in Vivec city). This will select the place for the new shrine. Then, you may ask a lower rank member to build a Shrine of the Tribunal. In about one week, the shrine will be built, his disposition will grow low, and you'll gain 1 point of luck.
+
+DISCLAIMER
+- this plug in adds a script to Lord Vivec.
+- removes the divinity of Lord Vivec if the Heart of Lorkhan is destroyed
+- if Lord Vivec loses his divinity, also the PC loses the special powers received from Vivec.
+- replaces all the Ordinators in the Ministery of Truth with non hostile ordinators
+- if you complete the main quest, and you haven't completed the first quest of the Temple, the Pilgrimage of the Seven Graces , with this plug in you'll not ba able anymore to complete it anymore!!!
+
+
+**********************Scout's Services**************************
+
+With this plugin, you may hire a scout to transport you to most of the places in Vvardenfell.
+
+According to the descritpion of the class, the scouts:
+
+" serve as guide for travelers and traders, or work as advance guard and pathfinder for expeditions.  know the geography of Vvardenfell, and the various geographic regions."
+
+In my mod, they can take you to almost every place in Vvardenfell.
+
+To start, talk to a scout about "my trade".(for example, to Arathor in the South Wall Corner Club, in Balmora).
+It'll add the topics:
+
+"travel across Ascadian Islands"
+"travel across Ashlands"
+"travel across Azura's Coast"
+"travel across Bitter Coast"
+"travel across Grazelands"
+"travel across Molag Amur"
+"travel across Red Mountain"
+"travel across Sheogorad"
+"travel across West Gash"
+"I need a guide"
+
+Then, when you are in one of these regions, using these topics, you may hire a scout to transport you to any cavern, daedric shrine, ecc...of the region where they are.
+It works like the fast travel of the silt striders.
+Only the scouts at the Ghostgate can take you to the Red Mountain Region.
+
+If the scout is member of a faction, will not offer his services to you, unless you also are member of that faction.
+If their disposition is under 35, they'll refuse their services to you.
+If you wish they take you to an Ancestral Tomb or to an Ashlander Camp, their disposition must be at least 80.
+
+In the Redoran Stronghold and in the Hlaalu Stronghold, there is a scout that can be hired like everyone else.
+
+If you are in a place and you need to find a scout, enter a tavern a speak to the publican about the topic "I need a guide". The publican will tell you who are the scouts that live in that area.
+
+
+**********************Smith's Services**************************
+
+With this plugin, you may ask a smith to forge you weapons and armor of your choice.
+
+To start, talk about the topic "my trade" to a smith. It'll add the topic "smith's services". Using this topic, you may order weapons and armor.
+
+- only Nord smiths can forge nordic weapons / armor.
+
+- only Orc smiths can forge orcish weapons and armor.
+
+- only imperial smiths can forge imperial weapons and armor.
+
+- only smiths of level 15° or higher can forge glass and ebony weapons and armor. 
+
+- only Yagrum Bagarn can forge dwarven weapons and armor.
+
+When you order an item, you have to pay some gold in advance. When the smith finishes his job, the
+item will be added to the smith's inventory and it will be for sale. If you order armor, when you do business with him, make sure you buy it, otherwise he could equip it and keep it for himself, if the armor he is wearing is worse than the new one. 
+
+
+************************************************
+
+2. INSTALLATION
+
+To install the plugin, unzip the files  into the Morrowind/Data Files directory. Run the Morrowind Launcher program. Select Data Files. Double click Antares' Privileges.esp.
+If you have installed the mods that I have included in this one, you may find problems. It is suggested to start a new game in that case.
+This mod requires Tribunal and or Bloodmoon.
+
+***********************************************
+
+3. CREDITS & USAGE
+
+Feel free to use this mod as you wish. Just inform me when you place it (original or modified) somewhere on web.
+
+***********************************************
+
+4. CONTACTS
+
+If you have any comments, questions, suggestions, criticisms, please, contact me at:
+
+brannart2000@yahoo.it
+
+I always answer my eMails. Just make sure  that you put something about this mod in the subject field. 
+If you make any change to this mod that makes it better, please, tell me!  : )
+
+************************************************
+
+5. MY MODS
+
+do not forget to give a look at my other mods on PlanetElderScrolls:
+
+http://planetelderscrolls.gamespy.com/View.php?view=User.EntriesListing&id=136072
+
+************************************************
+
+6. MOD SUGGESTED
+
+Here is a list of my favourite mods that every player should have.
+
+http://www.freewebs.com/arcimaestroantares/index.htm
+
+************************************************
+
+Arcimaestro Antares
