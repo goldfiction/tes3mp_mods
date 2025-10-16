@@ -1,19 +1,22 @@
 ##README
 ***
+* I'm sorry that the servers are offline now. CAC stopped hosting servers. I'm looking for other hosting options currently.
 * I have uploaded a 2nd snapshot of my current data files
 * [https://drive.google.com/drive/folders/1FbQM2WpsMNFxQnso9_OovoR8CTRVC00Z?usp=sharing]
 * You will need to use 7zip to uncompress the data files [https://www.7-zip.org/]
 ***
 * This is repo for Goldfiction server
 * the server uses 0.8.0 TES3MP version
-* android_client contains an android client
+* android_client contains an android client for 0.8.0
 * pc_client contains a pc client
 * server/scripts/custom contains the scripts adapted for 0.8.0
 * mods/main contains all the needed mods to join server
-* sorry we were down for last few months. Our server is now available in a different ip address.
-* the main server is (0.8.0 lite): --connect 45.62.236.6:25565
-* 0.8.0 vanilla is --connect 45.62.236.6:25568
-* 0.8.1 vanilla is --connect 45.62.236.6:25569
+* Basically, 0.8.0 is good for android client. 0.8.1 is good for VR option. But they both support for regular pc clients. So it's possible to switch between pc and android or pc and VR. In case you need to fight easier with pc client at times and switch to VR for scenery. Or switch to android for some relaxing alchemy making.
+* last I checked, the tes3mp is stopped for development. 0.8.1 is the latest version so far. Although 0.8.0 can share majority of scripting with 0.8.1, a lot scripts were from 0.7.x and usually give crashes without modifying code. Checkout /server/scripts in this repo for some working version. All tweaked manually on my free time.
+* --sorry we were down for last few months. Our server is now available in a different ip address.
+* --the main server is (0.8.0 lite): --connect 45.62.236.6:25565
+* --0.8.0 vanilla is --connect 45.62.236.6:25568
+* --0.8.1 vanilla is --connect 45.62.236.6:25569
 
 * This is needed for 0.8.0 lite server
 ````javascript

@@ -249,6 +249,9 @@ end
 
 --pouchItemAdd(pid, refId, count, soul, charge, enchantmentCharge)
 pouchItemAdd = function(pid, refId, count, soul, charge, enchantmentCharge)
+
+	if pid == nil then return end
+	if Players[pid] == nil then return end
 	
 	Players[pid].data.customVariables.allowAddItem = true -- This allows the player to bypass the block enforced within morePlayerFuncs.lua's Player:SaveInventory()
 	
@@ -284,6 +287,8 @@ end
 --pouchItemRemove(pid, refId, count, soul, charge, enchantmentCharge)
 pouchItemRemove = function(pid, refId, count, soul, charge, enchantmentCharge)
 	if pid == nil then return end
+	if Players[pid] == nil then return end
+
 	if refId == nil then return end
 	if count == nil then count = 1 end
 	if soul == nil then soul = "" end
@@ -310,10 +315,15 @@ end
 ----------------------------------------------------------------------------------------------------------
 
 local pName = function(pid)
+	if pid == nil then return end
+	if Players[pid] == nil then return end
 	return Players[pid].name:lower()	
 end
 
 pouches.isPlayerInDB = function(pid, dbName)
+	if Players[pid] == nil then
+	  return nil
+	end
 	local name = Players[pid].name:lower()
 	if name ~= nil and dbName ~= nil then
 		local targetDB = jsonInterface.load("custom/"..dbName..".json")
@@ -328,6 +338,9 @@ pouches.isPlayerInDB = function(pid, dbName)
 end
 
 pouches.deletePlayerFromDB = function(pid, dbName)
+	if Players[pid] == nil then
+	  return nil
+	end
 	local name = Players[pid].name:lower()
 	if name ~= nil then
 		if dbName ~= nil then
@@ -467,10 +480,11 @@ pouches.fillItemPouch = function(pid, pouchRefId)
 								
 							end
 							
-							if giveAmount ~= nil then
+							if giveAmount ~= nil and targetDB.player[name] ~= nil then
 								
 								depositAmount = depositAmount + giveAmount
 								
+                                -- tes3mp.LogMessage(enumerations.log.INFO, name)
 								if targetDB.player[name].items[iRefId] ~= nil then
 									targetDB.player[name].items[iRefId] = (giveAmount + targetDB.player[name].items[iRefId])
 								else
@@ -610,15 +624,15 @@ local loginFunction = function(pid)
 					if name ~= nil and dbName ~= nil then
 					
 						local targetDB = jsonInterface.load("custom/"..dbName..".json")
-						--if targetDB.player[name] == nil then
+						-- if targetDB.player[name] == nil then
 							local pouchRefId = string.lower(pouchRef)
 							if not inventoryHelper.containsItem(Players[pid].data.inventory, pouchRefId) then
-								-- tes3mp.MessageBox(pid, -1, pouchData.pouchName.." has been added to your inventory.")
+								tes3mp.MessageBox(pid, -1, pouchData.pouchName.." has been added to your inventory.")
 								pouchItemAdd(pid, pouchRefId, 1)
 							end
-							pouches.fillItemPouch(pid, pouchRefId)
-							pouches.isPlayerInDB(pid, dbName)
-						--end
+							--pouches.fillItemPouch(pid, pouchRefId)
+							--pouches.isPlayerInDB(pid, dbName)
+						-- end
 					
 					end
 				end
